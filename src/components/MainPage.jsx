@@ -6,8 +6,8 @@ const MainPage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
-      <div className="w-[380px] bg-white rounded-2xl shadow-lg overflow-hidden">
+    <div className="min-h-screen flex items-end justify-center bg-gray-100 p-4">
+      <div className="w-[380px] h-[90vh] my-2 bg-white rounded-2xl shadow-lg overflow-hidden">
         {/* Top Half Placeholder */}
         <div className="h-[200px] bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
           {/* You can place a logo or image here */}
